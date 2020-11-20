@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="80dp">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14"
+        app:srcCompat="@drawable/background_of_image" />
+    <Button
+        android:tag="1"
+        android:onClick="option_chosen"
+        android:layout_width="match_parent"
+        android:layout_weight="0.3"
+        android:layout_height="30dp"
+        android:text="OPTIONS1"/>
+    <Button
+        android:tag="2"
+        android:layout_width="match_parent"
+        android:onClick="option_chosen"
+        android:layout_weight="0.3"
+        android:layout_height="30dp"
+        android:text="OPTIONS1"/>
+    <Button
+        android:tag="3"
+        android:layout_width="match_parent"
+        android:onClick="option_chosen"
+        android:layout_weight="0.3"
+        android:layout_height="30dp"
+        android:text="OPTIONS1"/>
+    <Button
+        android:tag="4"
+        android:layout_width="match_parent"
+        android:onClick="option_chosen"
+        android:layout_weight="0.3"
+        android:layout_height="30dp"
+        android:text="OPTIONS1"/>
+</LinearLayout>

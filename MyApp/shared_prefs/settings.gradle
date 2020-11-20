@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "shared_prefs"

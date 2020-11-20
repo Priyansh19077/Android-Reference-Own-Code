@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAVE YOUR DATA HERE"
+            android:textSize="28dp"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="KEY"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:textSize="30dp"/>
+
+            <EditText
+                android:id="@+id/edtName"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="50dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="VALUE"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:textSize="30dp"/>
+
+            <EditText
+                android:id="@+id/edtData"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="30dp" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:layout_marginBottom="40dp"
+            android:textSize="30dp"
+            android:text="SAVE MY DATA"/>
+    </LinearLayout>
+
+</ScrollView>
